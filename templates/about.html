@@ -1,0 +1,66 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <title>Review Classifier</title>
+  </head>
+  <body>
+
+    <nav class="navbar navbar-expand-sm bg-dark navbar-dark sticky-top">
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+          <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse justify-content-center" id="collapsibleNavbar">
+        <ul class="navbar-nav nav-pills">
+          <li class="nav-item">
+              <a class="nav-link" href="{{url_for('index')}}">Home</a>
+          </li>
+          <li class="nav-item">
+              <a class="nav-link" href="{{url_for('about')}}">About</a>
+          </li>
+        </ul>
+      </div>
+  </nav>
+    <div class="container-fluid">
+      <h1 class="text-center" ><b>About</b></h1>
+    </div>
+
+    <div class="jumbotron"><div class="container">
+        <div class="row  text-center">
+          <div class="col-6 col-sm-6"><b>Team Name</b></div>
+          <div class="col-6 col-sm-6">Boot Loaders</div>
+          <div class="col-6 col-sm-6"><b>Members</b></div>
+          <div class="col-6 col-sm-6">Sahil, Milan, Shilpa, Lekshmi</div>
+          <div class="col-6 col-sm-6"><b>College Name</b></div>
+          <div class="col-6 col-sm-6">Rajagiri College of Social Sciences</div>
+          <div class="col-6 col-sm-6"><b>Project Title</b></div>
+          <div class="col-6 col-sm-6">Classification of Reviews.</div>
+          <div class="col-6 col-sm-6"><b>Domain</b></div>
+          <div class="col-6 col-sm-6">Machine Learning, NLP.</div>
+          <div class="col-6 col-sm-6"><b>Language</b></div>
+          <div class="col-6 col-sm-6">Python</div>
+          <div class="col-6 col-sm-6"><b>  Problem Statement</b></div>
+          <div class="col-6 col-sm-6">Classify the user inputted review as Positive or Negative.</div>
+        </div>
+      </div>
+      </div>
+      
+      <div class=""><div class="container">
+          <p>As we all know that in today’s world the technology is increasing with every second and so the data. A data can be of different types such as text, images etc. Similarly, there is a data which is being collected every second in response to another set of data, generally known as reviews or comments. As we can witness a lot of data collection in form of reviews and comments in response to a dataset which can be anything YouTube videos, movies, hotels and so on. So these reviews or comments data should be analyzed and classified in order to evaluate the different aspects such as ratings, popularity and so on depending on the dataset. </p>
+          <p>Therefore, our team is planning to build a machine learning project working on the principle of NLP (Natural Language Processing) which will be analyzing and predicting the reviews as “Positive” or “Negative”. The dataset used for model building is an review dataset which was obtained from Kaggle platform. We are using Flask to build an API which will be deployed in Heroku platform along with this model from where we will be able to predict the polarity of the user review. </p>
+        </div>
+        </div>
+
+        <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+      </body>
+    
+    </html>
+    
